@@ -1,5 +1,5 @@
 {% set name = "starlite-multipart" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/starlite-multipart-{{ version }}.tar.gz
-  sha256: bd5b25a614fadc237fe4da60f0c43c5e7d045a523d4e3685237047e1e228da87
+  sha256: a8155a8f36bb3f2b335700cb46b91f5614e04ec49113f8894bbd834f5cbc7979
 
 build:
   noarch: python
